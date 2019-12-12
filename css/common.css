@@ -1,0 +1,86 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Roboto, sans-serif;
+}
+
+/* Layouts */
+.hcj--layouts {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+}
+
+/* Section */
+.section-01 {
+    background-color: #ddd;
+    padding: 60px 0;
+}
+.section-01 .reason {
+    color: rgba(108, 108, 108, 0.06);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.section-01 .title {
+    color: #61cda1;
+    font-size: 26px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.section-01 .reason-content {
+    display: flex;
+    list-style: none;
+}
+
+.section-01 .reason-content li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 1%;
+    width: 24%;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+    z-index: 38;
+}
+
+.section-01 .reason-content li .li-icon-style {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.section-01 .reason-content li .li-circle-style {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: 100;
+    width: 79%;
+    opacity: 0.3;
+    transform: rotate(3deg);
+}
+
+.section-01 .reason-content li .sTitle {
+    margin-top: 100px;
+}
+
+.section-01 .reason-content .content {
+    margin: 25px 0;
+}
+
+.section-01 .reason-content li:hover {
+    -webkit-box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
